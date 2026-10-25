@@ -8,12 +8,12 @@
 
 33 буквы · стихи · озвучка · 4 игры · прописи · звёзды
 
-<a href="https://skilledify.github.io/bukvar/">
+<a href="https://skilledify.github.io/react-ts-primer-ru/">
   <img src="https://img.shields.io/badge/Открыть_демо-Букварь-FF5D8F?style=for-the-badge&logo=githubpages&logoColor=white" alt="Открыть демо" />
 </a>
 
-[![Deploy](https://github.com/skilledify/bukvar/actions/workflows/deploy.yml/badge.svg)](https://github.com/skilledify/bukvar/actions/workflows/deploy.yml)
-[![CI](https://github.com/skilledify/bukvar/actions/workflows/ci.yml/badge.svg)](https://github.com/skilledify/bukvar/actions/workflows/ci.yml)
+[![Deploy](https://github.com/skilledify/react-ts-primer-ru/actions/workflows/deploy.yml/badge.svg)](https://github.com/skilledify/react-ts-primer-ru/actions/workflows/deploy.yml)
+[![CI](https://github.com/skilledify/react-ts-primer-ru/actions/workflows/ci.yml/badge.svg)](https://github.com/skilledify/react-ts-primer-ru/actions/workflows/ci.yml)
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](#стек)
 [![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)](#стек)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)](#стек)
@@ -32,7 +32,7 @@
 
 ## Демо
 
-**https://skilledify.github.io/bukvar/**
+**https://skilledify.github.io/react-ts-primer-ru/**
 
 Сайт опубликован на GitHub Pages. Для распознавания речи лучше всего подходит Chrome или Edge; в остальных случаях игра предложит ручную проверку взрослым.
 
@@ -156,8 +156,8 @@
 Понадобится **Node.js 20.19+** (в репозитории есть `.nvmrc` с версией 22).
 
 ```bash
-git clone https://github.com/skilledify/bukvar.git
-cd bukvar
+git clone https://github.com/skilledify/react-ts-primer-ru.git
+cd react-ts-primer-ru
 npm install
 npm run dev
 ```
@@ -214,7 +214,7 @@ npm run dev
 `vite.config.ts` автоматически берёт имя репозитория из `GITHUB_REPOSITORY` и выставляет `base` как `/<repo>/`. Для нестандартного пути можно переопределить базу:
 
 ```bash
-VITE_BASE=/my-folder/ npm run build
+VITE_BASE=/react-ts-primer-ru/ npm run build
 ```
 
 Приложение использует `HashRouter`, поэтому прямые ссылки вида `/#/games/drum` работают на статическом хостинге без серверных rewrite-правил. Файл `public/.nojekyll` отключает обработку Jekyll.
